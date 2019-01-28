@@ -6,9 +6,13 @@ W tym repozytorium znajdują się materiały do kursu "Semantyka eksperymentalna
 Zajęcia podzielone są na 7 "podmodułów":
 
 02. [Organizacja pracy badawczej](01_Organizacja_pracy_badawczej/)
+
     W tym module zajmiemy się podstawowymi zasadami *reproducible research* i ich wdrożeniem w semantyce eksperymentalnej przy użyciu otwartych narzędzi. 
+
 02. [Jupyter Notebook](02_Jupyter_Notebook/)
+
     Moduł ten będzie poświęcony środowisku Jupyter Notebook. Zapoznamy się ze sposobem pracy w notebookach oraz niektórymi bardziej zaawansowanymi funkcjami tego oprogramowania.
+
 03. [LimeSurveyRPC i jinja2](03_LimeSurveyRPC_i_jinja2/)
 04. [PsychoPy](04_PsychoPy)
 05. [Wprowadzenie do `pandas`](05_Wprowadzenie_do_pandas/)
