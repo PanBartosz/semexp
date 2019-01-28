@@ -5,7 +5,7 @@ W tym repozytorium znajdują się materiały do kursu "Semantyka eksperymentalna
 ## Spis treści
 Zajęcia podzielone są na 7 "podmodułów". Po kliknięciu na link można przejść do danego modułu. Na podstronie każdego modułu znajdują się dodatkowe informacje.
 
-02. [Organizacja pracy badawczej](01_Organizacja_pracy_badawczej/)
+01. [Organizacja pracy badawczej](01_Organizacja_pracy_badawczej/)
 
     W tym module zajmiemy się podstawowymi zasadami *reproducible research* i ich wdrożeniem w semantyce eksperymentalnej przy użyciu otwartych narzędzi. 
 
