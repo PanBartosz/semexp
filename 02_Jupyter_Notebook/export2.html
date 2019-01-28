@@ -1,0 +1,174 @@
+
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Eksport-i-udost&#281;pnianie-notebook&#243;w">Eksport i udost&#281;pnianie notebook&#243;w<a class="anchor-link" href="#Eksport-i-udost&#281;pnianie-notebook&#243;w">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Prosty-eksport-notebook&#243;w">Prosty eksport notebook&#243;w<a class="anchor-link" href="#Prosty-eksport-notebook&#243;w">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Najprostszą opcją eksportu notebookóœ do innego formatu jest wybranie z menu <code>File</code> opcji <code>Download as</code>. Dostępne są najstępujące możliwości:</p>
+<ul>
+<li><strong>Notebook</strong> - ściągamy po prostu plik z Notebookiem, przydatne jeżeli pracujemy w instancji Jupytera on-line</li>
+<li><strong>Python</strong> - ściamy notebook jaki zwykły plik <code>.py</code>, elementy tekstowe konwertowane są do komentarzy (<code>#</code>)</li>
+<li><strong>HTML</strong> - ściągamy notebook w pliku HTML, który potem możemy wysłać mailem/udostępnić na stronie WWW</li>
+<li><strong>Reveal.js slides</strong> - ściągamy Notebook sformatowany jako pokaz slajdów, dodatkowe opcje dotyczące slajdów wyświetlają się po wybraniu w menu opcji View -&gt; Cell toolbar -&gt; Slideshow. Więcej informacji o Reveal.sj: <a href="https://revealjs.com">https://revealjs.com</a></li>
+<li><strong>Markdown</strong> - ściągamy notebook sformatowany jako plik Markdown</li>
+<li><strong>reST</strong> - ściągamy notebook sformatowany jako plik ReStructured Text (podobny do Markdown)</li>
+<li><strong>LaTeX</strong> - ściągamy notebook jako plik TeX, domyślnie nie radzi sobie z polskimi znakami ale wystarczy w LaTeXowej preambule dodać odpowiednie pakiety</li>
+<li><strong>PDF via LaTeX</strong> - konwersja do PDF za pomocą LaTeXa (jeśli mamy zainstalowany), uwagi o polskich znakach stosują się jak wyżej.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Zaawansowane-opcje-eksportu-Notebook&#243;w">Zaawansowane opcje eksportu Notebook&#243;w<a class="anchor-link" href="#Zaawansowane-opcje-eksportu-Notebook&#243;w">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Wraz z pakietem Jupyter instaluje się bardzo przydatny moduł <code>nbconvert</code> który służy do konwersji Notebooków z wiersza poleceń. Oferuje trochę więcej opcji dostosowania ekspoertu do naszych potrzeb. Poniżej znajdują się przykładowe polecenia:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Przykładowa komórka z kodem aby zobaczyć ładny eksport.</span>
+<span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="k">import</span> <span class="n">norm</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="o">%</span><span class="k">matplotlib</span> inline
+<span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">norm</span><span class="o">.</span><span class="n">rvs</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">1000</span><span class="p">));</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span>%%bash
+<span class="c1"># Prosty eksport do HTML</span>
+jupyter nbconvert --to html <span class="s2">&quot;03. Eksport i udostępnianie notebooków.ipynb&quot;</span>
+
+<span class="c1"># Eksport do HTML z uproszczonym kodem HTML, dobre jeśli chcemy osadzić na stronie output notebooków</span>
+<span class="c1"># Możemy także podać nową nazwę pliku.</span>
+jupyter nbconvert --to html <span class="s2">&quot;03. Eksport i udostępnianie notebooków.ipynb&quot;</span> --template basic --output <span class="s2">&quot;export2.html&quot;</span>
+
+<span class="c1"># Możemy ponownie wykonać kod w komórkach (np. jeżeli używamy notebooków do automatycznego generowania raportów).</span>
+<span class="c1"># Tu musimy wykonać inny plik, bo jeśli wykonamy ten to będzie problem :)</span>
+jupyter nbconvert --to latex <span class="s2">&quot;01. Podstawowe funkcje Jupyter Notebooka.ipynb&quot;</span> --execute --output <span class="s2">&quot;raport_</span><span class="k">$(</span>date --iso<span class="k">)</span><span class="s2">.tex&quot;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>[NbConvertApp] Converting notebook 03. Eksport i udostępnianie notebooków.ipynb to html
+[NbConvertApp] Writing 261302 bytes to 03. Eksport i udostępnianie notebooków.html
+[NbConvertApp] Converting notebook 03. Eksport i udostępnianie notebooków.ipynb to html
+[NbConvertApp] Writing 12455 bytes to export2.html
+[NbConvertApp] Converting notebook 01. Podstawowe funkcje Jupyter Notebooka.ipynb to latex
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Support files will be in raport_2019-01-28.md_files/
+[NbConvertApp] Making directory raport_2019-01-28.md_files
+[NbConvertApp] Writing 22435 bytes to raport_2019-01-28.md.tex
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Po wyeksportowaniu do pliku Markdown możemy np. przekonwertować nasz raport do formatu <code>ODT</code> albo <code>DOCX</code>, jeżeli mamy na komputerze zainstalowany program <code>pandoc</code>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span>%%bash
+pandoc -o <span class="s2">&quot;raport_</span><span class="k">$(</span>date --iso<span class="k">)</span><span class="s2">.pdf&quot;</span> <span class="s2">&quot;raport_</span><span class="k">$(</span>date --iso<span class="k">)</span><span class="s2">.md&quot;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Udost&#281;pnianie-notebook&#243;w">Udost&#281;pnianie notebook&#243;w<a class="anchor-link" href="#Udost&#281;pnianie-notebook&#243;w">&#182;</a></h2>
+</div>
+</div>
+</div>
+ 
+
