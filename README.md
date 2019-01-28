@@ -1,9 +1,9 @@
 # Semantyka eksperymentalna - moduł programistyczny
 
-W tym repozytorium znajdują się materiały do kursu "Semantyka eksperymentalna - moduł programistyczny" autorstwa Bartosza Maćkiewicz (b.mackiewicz@uw.edu.pl, wwww.bartoszmackiewicz.pl).
+W tym repozytorium znajdują się materiały do kursu "Semantyka eksperymentalna - moduł programistyczny" autorstwa Bartosza Maćkiewicz (b.mackiewicz[at]uw.edu.pl, www.bartoszmackiewicz.pl).
 
 ## Spis treści
-Zajęcia podzielone są na 7 "podmodułów":
+Zajęcia podzielone są na 7 "podmodułów". Po kliknięciu na link można przejść do danego modułu. Na podstronie każdego modułu znajdują się dodatkowe informacje.
 
 02. [Organizacja pracy badawczej](01_Organizacja_pracy_badawczej/)
 
@@ -14,10 +14,24 @@ Zajęcia podzielone są na 7 "podmodułów":
     Moduł ten będzie poświęcony środowisku Jupyter Notebook. Zapoznamy się ze sposobem pracy w notebookach oraz niektórymi bardziej zaawansowanymi funkcjami tego oprogramowania.
 
 03. [LimeSurveyRPC i jinja2](03_LimeSurveyRPC_i_jinja2/)
+    
+    W tym module zobaczymy, w jaki sposób korzystac z API LimeSurveya, jak za jego pomocą ściągać dane z badań ankietowych, tworzyć nowe ankiety. Przyjrzymy się rówież bibliotece `jinja2`, będącej silnikiem szablonów napisanym w Pythonie. Omówimy jej potencjalne zastosowania w prowadzeniu badań z zakresu semantyki eksperymentalnej. 
+
 04. [PsychoPy](04_PsychoPy)
+    
+    PsychoPy pozwala tworzyć eksperymenty w Builderze, używając graficznego interfejsu użytkownika. Prawdziwą siłą PsychoPy jest jednak jego zastosowanie jako biblioteki programistycznej do programowania eksperymentów. W tym module zobaczymy, jak tworzyć i prezentować różne rodzaje bodźców, jak zbierać odpowiedzi badanych i jak dobrze zaprojektować badanie z zakresu semantyki eksperymentalnej.
+
 05. [Wprowadzenie do `pandas`](05_Wprowadzenie_do_pandas/)
+    
+    Python zyskuje popularność jako język używany w analizie danych. Najpopularniejszą biblioteką ułatwiającą to zadanie jest pakiet `pandas`. W tej części poznamy postawy tej biblioteki, nauczymy się wczytywać dane i manipulować nimi za pomocą przyjaznego i intuicyjnego interfejsu oferowanego przez `pandas`.
+
 06. [Statystyczne testowanie hipotez](06_Statystyczne_testowanie_hipotez/)
+
+    Python oferuje szereg bibliotek ułatwiających statystyczną analizę danych. My przyjrzymy się najpopularniejszym z nich: `scipy`, `statsmodels` oraz `pingouin`. Zobaczymy, jak za ich pomocą przeprowadzić można najbardziej typowe w badaniach empirycznych procedury statystyczne.
+
 07. [Wizualizacja danych w Pythonie](07_Wizualizacja_danych_w_Pythonie/)
+
+    Na potrzeby prezentacji wyników badań warto w graficzny sposób przedstawić zebrane dane. My zobaczymy, jak możemy to zrobić używając pakietów `matplotlib` oraz `seaborn` .
 
 ## Dodatkowe informacje
 
