@@ -3,8 +3,15 @@
 W tym repozytorium znajdują się materiały do kursu "Semantyka eksperymentalna - moduł programistyczny" autorstwa Bartosza Maćkiewicz (b.mackiewicz@uw.edu.pl, wwww.bartoszmackiewicz.pl).
 
 ## Spis treści
+Zajęcia podzielone są na 7 "podmodułów":
 
+02. [Organizacja pracy badawczej](01_Organizacja_pracy_badawczej/)
 02. [Jupyter Notebook](02_Jupyter_Notebook/)
+03. [LimeSurveyRPC i jinja2](03_LimeSurveyRPC_i_jinja2/)
+04. [PsychoPy](04_PsychoPy)
+05. [Wprowadzenie do `pandas`](05_Wprowadzenie_do_pandas/)
+06. [Statystyczne testowanie hipotez](06_Statystyczne_testowanie_hipotez/)
+07. [Wizualizacja danych w Pythonie](07_Wizualizacja_danych_w_Pythonie/)
 
 ## Dodatkowe informacje
 
