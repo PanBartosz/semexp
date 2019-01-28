@@ -4,7 +4,7 @@ W tym repozytorium znajdują się materiały do kursu "Semantyka eksperymentalna
 
 ## Spis treści
 
-02. (02_Jupyter_Notebook/)[Jupyter Notebook]
+02. [Jupyter Notebook](02_Jupyter_Notebook/)
 
 ## Dodatkowe informacje
 
