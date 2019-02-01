@@ -15,7 +15,7 @@ Zajęcia podzielone są na 7 "podmodułów". Po kliknięciu na link można przej
 
 03. [LimeSurveyRPC i jinja2](03_LimeSurveyRPC_i_jinja2/)
     
-    W tym module zobaczymy, w jaki sposób korzystac z API LimeSurveya, jak za jego pomocą ściągać dane z badań ankietowych, tworzyć nowe ankiety. Przyjrzymy się rówież bibliotece `jinja2`, będącej silnikiem szablonów napisanym w Pythonie. Omówimy jej potencjalne zastosowania w prowadzeniu badań z zakresu semantyki eksperymentalnej. 
+    W tym module zobaczymy, w jaki sposób korzystac z API LimeSurveya, jak za jego pomocą ściągać dane z badań ankietowych oraz jak tworzyć nowe ankiety. Przyjrzymy się rówież bibliotece `jinja2`, będącej silnikiem szablonów napisanym w Pythonie. Omówimy jej potencjalne zastosowania w prowadzeniu badań z zakresu semantyki eksperymentalnej. 
 
 04. [PsychoPy](04_PsychoPy)
     
@@ -31,8 +31,11 @@ Zajęcia podzielone są na 7 "podmodułów". Po kliknięciu na link można przej
 
 07. [Wizualizacja danych w Pythonie](07_Wizualizacja_danych_w_Pythonie/)
 
-    Na potrzeby prezentacji wyników badań warto w graficzny sposób przedstawić zebrane dane. My zobaczymy, jak możemy to zrobić używając pakietów `matplotlib` oraz `seaborn` .
+    Na potrzeby prezentacji wyników badań warto w graficzny sposób przedstawić zebrane dane. My zobaczymy, jak możemy to zrobić używając pakietów `matplotlib` oraz `seaborn`.
+
+## Jak korzystać z notebooków?
+Najlepszym pomysłem jest sklonowane repozytorium (`git clone https://github.com/PanBartosz/semexp`) i lokalna zabawa z notatnikami. Zapraszam do eksperymentów - notatniki są narzedziem, w którym bardzo łatwo bawić się kodem, *tweakować* różne rzeczy i metodą prób i błędów odkrywać ciekawe możliwości bibliotek!
+
 
 ## Dodatkowe informacje
-
 Instruktorem kursu jest Bartosz Maćkiewicz (b.mackiewicz[at]uw.edu.pl). Wszystkie pytania i wątpliwości proszę kierować bezpośrednio do mnie. Materiały dostępne NIE są aktualnie udostępnione na wolnej licencji i należą wyłącznie do ich autora. W przypadku prośby o ich wykorzystanie proszę o kontakt.

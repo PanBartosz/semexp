@@ -1,3 +1,1 @@
 # Organizacja pracy badawczej
-
-Teścik?
