@@ -2,9 +2,9 @@
 
 W tym module znajduję się materiały dotyczące programu Jupyter Notebook:
 
-1. [Podstawowe funkcje Jupyter Notabooka]('01. Podstawowe funkcje Jupyter Notebooka.ipynb')
+1. [Podstawowe funkcje Jupyter Notebooka](01.\ Podstawowe\ funkcje\ Jupyter\ Notebooka.ipynb')
 
-1. [Podstawowe funkcje Jupyter Notabooka](test.md)
+1. [Podstawowe funkcje Jupyter Notebooka](test.md)
 
 W tej części omówione sa podstawy pracy z programem Jupyter Notebook - ogólna idea programu, podstawowe skróty klawiszowe i podstawy składni Markdown.
 
