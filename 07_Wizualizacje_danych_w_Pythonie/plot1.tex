@@ -1,0 +1,62 @@
+% This file was created by matplotlib2tikz v0.6.18.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.194607843137255,0.453431372549019,0.632843137254902}
+\definecolor{color1}{rgb}{0.881862745098039,0.505392156862745,0.173039215686275}
+
+\begin{axis}[
+legend cell align={left},
+legend entries={{pol},{eng}},
+legend style={at={(0.03,0.03)}, anchor=south west, draw=white!80.0!black},
+tick align=outside,
+tick pos=left,
+x grid style={white!69.01960784313725!black},
+xlabel={condition},
+xmin=-0.5, xmax=1.5,
+xtick={0,1},
+xticklabels={congruent,incongruent},
+y grid style={white!69.01960784313725!black},
+ylabel={rt},
+ymin=0, ymax=482.683057308805
+]
+\addlegendimage{ybar,ybar legend,fill=color0,draw opacity=0};
+\draw[fill=color0,draw opacity=0] (axis cs:-0.4,0) rectangle (axis cs:0,354.282427786028);
+\draw[fill=color0,draw opacity=0] (axis cs:0.6,0) rectangle (axis cs:1,422.846181349685);
+\addlegendimage{ybar,ybar legend,fill=color1,draw opacity=0};
+\draw[fill=color1,draw opacity=0] (axis cs:0,0) rectangle (axis cs:0.4,391.833963236135);
+\draw[fill=color1,draw opacity=0] (axis cs:1,0) rectangle (axis cs:1.4,445.489735647308);
+\addplot [line width=1.08pt, white!26.0!black, forget plot]
+table [row sep=\\]{%
+-0.2	343.075355048656 \\
+-0.2	366.786432245244 \\
+};
+\addplot [line width=1.08pt, white!26.0!black, forget plot]
+table [row sep=\\]{%
+0.8	408.758492077081 \\
+0.8	436.926998753605 \\
+};
+\addplot [line width=1.08pt, white!26.0!black, forget plot]
+table [row sep=\\]{%
+0.2	378.61316730566 \\
+0.2	404.233001927686 \\
+};
+\addplot [line width=1.08pt, white!26.0!black, forget plot]
+table [row sep=\\]{%
+1.2	433.100703352891 \\
+1.2	459.69814981791 \\
+};
+\path [draw=black, fill opacity=0] (axis cs:0,0)
+--(axis cs:0,482.683057308805);
+
+\path [draw=black, fill opacity=0] (axis cs:1,0)
+--(axis cs:1,482.683057308805);
+
+\path [draw=black, fill opacity=0] (axis cs:-0.5,0)
+--(axis cs:1.5,0);
+
+\path [draw=black, fill opacity=0] (axis cs:-0.5,1)
+--(axis cs:1.5,1);
+
+\end{axis}
+
+\end{tikzpicture}
