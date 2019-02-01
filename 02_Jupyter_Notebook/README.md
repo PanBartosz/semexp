@@ -2,7 +2,7 @@
 
 W tym module znajduję się materiały dotyczące programu Jupyter Notebook:
 
-1. [Podstawowe funkcje Jupyter Notebooka](01.\ Podstawowe\ funkcje\ Jupyter\ Notebooka.ipynb)
+1. [Podstawowe funkcje Jupyter Notebooka](01.%20Podstawowe&20funkcje%20Jupyter%20Notebooka.ipynb)
 
 1. [Podstawowe funkcje Jupyter Notebooka](test.md)
 
