@@ -3,7 +3,7 @@
 W tym repozytorium znajdują się materiały do kursu "Semantyka eksperymentalna - moduł programistyczny" autorstwa Bartosza Maćkiewicz (b.mackiewicz[at]uw.edu.pl, www.bartoszmackiewicz.pl).
 
 ## Spis treści
-Zajęcia podzielone są na 7 "podmodułów". Po kliknięciu na link można przejść do danego modułu. Na podstronie każdego modułu znajdują się dodatkowe informacje.
+Zajęcia podzielone są na 7 "podmodułów". Po kliknięciu na link można przejść do danego modułu. Na podstronie każdego modułu znajdują się dodatkowe informacje. W każdym module znajdują się informacje dotyczące pracy domowej z zajęć w pliku `99. Praca domowa.ipynb`.
 
 01. [Organizacja pracy badawczej](01_Organizacja_pracy_badawczej/)
 
