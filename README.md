@@ -1,6 +1,6 @@
 # Semantyka eksperymentalna - moduł programistyczny
 
-W tym repozytorium znajdują się materiały do kursu "Semantyka eksperymentalna - moduł programistyczny" autorstwa Bartosza Maćkiewicz (b.mackiewicz[at]uw.edu.pl, www.bartoszmackiewicz.pl**.
+W tym repozytorium znajdują się materiały do kursu "Semantyka eksperymentalna - moduł programistyczny" autorstwa Bartosza Maćkiewicz (b.mackiewicz[at]uw.edu.pl, www.bartoszmackiewicz.pl).
 
 **UWAGA!** Nie wszystkie notebooki wyświetlają się dobrze na githubowym podglądzie - niektóre z nich trzeba ściągnąć na dysk i otworzyć w swoim własnym Jupyter Notebooku!
 
