@@ -47,7 +47,7 @@ for i in range(10):
                     height = 0.2) # ze względu na użyty układ współrzędnych wyjdą nam prostokąty!
     )
 
-# Przy każdej z 5 iteracji zmieniamy kolory naszych prostokątów oraz ich pozycję na keranie
+# Przy każdej z 5 iteracji zmieniamy kolory naszych prostokątów oraz ich pozycję na ekranie
 from random import random, uniform
 for i in range(5):
     for rect in rectangles:
