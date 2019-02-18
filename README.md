@@ -1,8 +1,10 @@
 # Semantyka eksperymentalna - moduł programistyczny
 
-W tym repozytorium znajdują się materiały do kursu "Semantyka eksperymentalna - moduł programistyczny" autorstwa Bartosza Maćkiewicz (b.mackiewicz[at]uw.edu.pl, www.bartoszmackiewicz.pl).
+W tym repozytorium znajdują się materiały do kursu "Semantyka eksperymentalna - moduł programistyczny" autorstwa Bartosza Maćkiewicza (b.mackiewicz[at]uw.edu.pl, www.bartoszmackiewicz.pl).
 
 **UWAGA!** Nie wszystkie notebooki wyświetlają się dobrze na githubowym podglądzie - niektóre z nich trzeba ściągnąć na dysk i otworzyć w swoim własnym Jupyter Notebooku!
+
+**UWAGA!** Repozytorium będzie aktualizowana podczas semestru. Informacje o aktualizacjach będę rozsyłał uczestnikom za pomocą poczty elektronicznej.
 
 ## Spis treści
 Zajęcia podzielone są na 7 "podmodułów". Po kliknięciu na link można przejść do danego modułu. Na podstronie każdego modułu znajdują się dodatkowe informacje. W każdym module znajdują się informacje dotyczące pracy domowej z zajęć w pliku `99. Praca domowa.ipynb`.
@@ -40,4 +42,4 @@ Najlepszym pomysłem jest sklonowane repozytorium (`git clone https://github.com
 
 
 ## Dodatkowe informacje
-Instruktorem kursu jest Bartosz Maćkiewicz (b.mackiewicz[at]uw.edu.pl). Wszystkie pytania i wątpliwości proszę kierować bezpośrednio do mnie. Materiały dostępne NIE są aktualnie udostępnione na wolnej licencji i należą wyłącznie do ich autora. W przypadku prośby o ich wykorzystanie proszę o kontakt.
+Instruktorem kursu jest Bartosz Maćkiewicz (b.mackiewicz[at]uw.edu.pl). Wszystkie pytania i wątpliwości proszę kierować bezpośrednio do mnie. Dostępne materiały NIE są aktualnie udostępnione na wolnej licencji i należą wyłącznie do ich autora. W przypadku prośby o ich wykorzystanie proszę o kontakt.
